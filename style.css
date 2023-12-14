@@ -21,6 +21,7 @@ header {
   text-align: center;
 }
 
+/* Flexbox styling for header */
 .head {
   display: flex;
   justify-content: center;
@@ -47,6 +48,7 @@ article div {
   width: 100%;
 }
 
+/* Flexbox styling for portfolio section */
 .about {
   display: flex;
 }
@@ -61,8 +63,16 @@ p {
   line-height: 1.5;
 }
 
+/* About section list alignment to overule flex styling */
+
 ul {
   text-align: left;
+}
+
+/* Portfolio descriptons font size */
+
+.desc {
+  font-size: 14px;
 }
 
 /* Links */
