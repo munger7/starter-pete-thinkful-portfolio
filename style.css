@@ -21,6 +21,16 @@ header {
   text-align: center;
 }
 
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-right: 30px;
+}
+
 /* Containers */
 div {
   background-color: #eae2b7;
@@ -37,9 +47,22 @@ article div {
   width: 100%;
 }
 
+.about {
+  display: flex;
+}
+
+.portfolio {
+  display: flex;
+  text-align: center;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
+
+ul {
+  text-align: left;
 }
 
 /* Links */
@@ -75,4 +98,13 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.flex {
+  flex: 1;
+  padding: 10px;
+}
+
+.flex-about {
+  text-align: left;
 }
